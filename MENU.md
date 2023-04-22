@@ -1,4 +1,4 @@
-# Parsed menus output
+# Parsed menus
 ## New Menu, 2023-04-22, item_pk=3082450219642810724
 Bonjour,
 
