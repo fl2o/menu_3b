@@ -1,0 +1,15 @@
+.envrc
+.vscode/*
+.DS_Store
+.idea/
+.python-version
+
+data/clips/*
+session.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
