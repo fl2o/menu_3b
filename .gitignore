@@ -3,6 +3,7 @@
 .DS_Store
 .idea/
 .python-version
+.easyOCR
 
 data/clips/*
 session.json
