@@ -1,6 +1,6 @@
 # Description
 
-Parsing a menu from instagram highlight weekly video:
+Parsing a menu from instagram highlight weekly video, original account and video visible here : https://www.instagram.com/3brasseurscompiegne/
 - Download the clip using [instagrapi](https://pypi.org/project/instagrapi/). They are not stored in the repo
 - Perform OCR using [easyOCR](https://pypi.org/project/easyocr/). Output is stored in data/extracted_text
 - Parse the text to human readable format using [OpenAI](https://pypi.org/project/openai/) GPT3.5-turbo
