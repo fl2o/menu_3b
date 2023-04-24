@@ -7,8 +7,8 @@ Parsing a menu from instagram highlight weekly video, original account and video
 - Store the output in [MENU.md](https://github.com/fl2o/menu_3b/blob/main/MENU.md)
 
 TODOS:
-- [X] email the output
-- [ ] automate with github action
+- [X] automate with github action
+- [ ] email the output
 
 # Installation
 
