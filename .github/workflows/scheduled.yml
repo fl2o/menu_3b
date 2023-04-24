@@ -1,0 +1,51 @@
+name: Run menu parser
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9 * * 1' # UTC time
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
+    - uses: actions/cache@v3
+      name: Configure pip caching
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install Python dependencies
+      run: |
+        pip install -r requirements.txt
+    - uses: actions/cache@v3
+      name: Configure easyOCR model caching
+      with:
+        path: ${GITHUB_WORKSPACE}/.easyOCR
+        key: ${{ runner.os }}-easyOCR-v1
+    - name: Run menu parser
+      env:
+        INSTAGRAM_USERNAME: ${{ secrets.INSTAGRAM_USERNAME }} 
+        INSTAGRAM_PASSWORD: ${{ secrets.INSTAGRAM_PASSWORD }} 
+        INSTAGRAM_SESSION: ${{ secrets.INSTAGRAM_SESSION }} 
+        OPENAI_KEY: ${{ secrets.OPENAI_KEY }} 
+      run: python parse_menus.py
+    - name: Commit and push if changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        touch ${GITHUB_WORKSPACE}/test_CI_commit
+        git add -A
+        git commit -m "Test CI commit" || exit 0
+        git push
+        
