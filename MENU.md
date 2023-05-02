@@ -1,4 +1,16 @@
 # Parsed menus
+## New Menu, 2023-05-02, item_pk=3093241908074521633
+Bonjour,
+
+Voici les plats du jour pour cette semaine au restaurant Les 3 Brasseurs :
+
+- Lundi : Mal plat du jour
+- Mardi : Sauté de dinde à la provençale
+- Mercredi : Hampe, sauce bleu et frites
+- Jeudi : Salade Les 3 Brasseurs
+- Vendredi : Dos de cabillaud à la crème chorizo
+
+Bonne semaine à tous !
 ## New Menu, 2023-04-24, item_pk=3087539536291472008
 Bonjour,
 
