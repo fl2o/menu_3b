@@ -1,4 +1,15 @@
 # Parsed menus
+## New Menu, 2023-05-10, item_pk=3098372067454769445
+Bonjour,
+
+Voici les plats du jour pour le restaurant Les 3 Brasseurs du 8 au 12 Mai :
+
+- Mardi 8 : Petit sauté d'agneau aux épices marocaines
+- Mercredi 9 : Cuisse de poulet basquaise, frites
+- Jeudi 10 : Méga Croque 3B, salade
+- Vendredi 11 : Tagliatelles de la mer à l'aneth
+
+Bonne semaine à tous !
 ## New Menu, 2023-05-02, item_pk=3093241908074521633
 Bonjour,
 
