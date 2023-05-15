@@ -1,4 +1,16 @@
 # Parsed menus
+## New Menu, 2023-05-15, item_pk=3102702533645212211
+Bonjour,
+
+Voici les plats du jour pour cette semaine au restaurant Les 3 Brasseurs :
+
+- Lundi : Brochettes de poulet
+- Mardi : Sauté de porc aux olives et spaetzle
+- Mercredi : Salade brasseurs
+- Jeudi : Tériyaki de poulet
+- Vendredi : Dos de cabillaud à la crème de chorizo
+
+Bonne semaine à tous !
 ## New Menu, 2023-05-10, item_pk=3098372067454769445
 Bonjour,
 
