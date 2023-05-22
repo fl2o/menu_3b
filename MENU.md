@@ -1,4 +1,16 @@
 # Parsed menus
+## New Menu, 2023-05-22, item_pk=3107827134406641152
+Bonjour,
+
+Voici les plats du jour pour cette semaine au restaurant Les 3 Brasseurs :
+
+- Lundi : Côte de porc au maroilles et frites
+- Mardi : Salade de maïs et jambon
+- Mercredi : Mitonné de boeuf aux pennes
+- Jeudi : Filet mignon sauce Moka et purée
+- Vendredi : Lasagne au saumon
+
+Bonne semaine à tous et bon appétit !
 ## New Menu, 2023-05-15, item_pk=3102702533645212211
 Bonjour,
 
