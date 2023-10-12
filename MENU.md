@@ -1,4 +1,19 @@
 # Parsed menus
+## New Menu, 2023-10-12, item_pk=3209243121504359603
+Chers tous,
+
+Voici les plats du jour pour la semaine du 9 au 13 Octobre au restaurant les 3 Brasseurs :
+
+- Lundi : Hot-Dog sauce curry-oignons, frites et salade
+- Mardi : Gratin chori 4 de chorizo
+- Mercredi : Filet chapon farci, sauce champignons et haricots verts
+- Jeudi : Cuissede poulet basquaise
+- Vendredi : Pavé merlu, vierge riz pilaf
+
+Nous vous souhaitons une excellente semaine !
+
+Cordialement,
+Votre assistant
 ## New Menu, 2023-05-22, item_pk=3107827134406641152
 Bonjour,
 
