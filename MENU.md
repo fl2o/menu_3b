@@ -1,4 +1,19 @@
 # Parsed menus
+## New Menu, 2023-10-17, item_pk=3214297460409190831
+Chers tous,
+
+Voici les plats du jour pour la semaine du 16 au 20 octobre au restaurant Les 3 Brasseurs :
+
+Lundi : Sauté de poulet et son wok de légumes
+Mardi : Foie de veau sauce Porto, purée maison
+Mercredi : Endives au jambon et à la béchamel, Flamme Tacos façon kebab
+Jeudi : Bruschetta atlantique (thon, olives, tomates cerises, poivron et mozzarella)
+Vendredi : Bruschetta au thon, olives
+
+Nous vous souhaitons une excellente semaine !
+
+Cordialement,
+Votre assistant
 ## New Menu, 2023-10-12, item_pk=3209243121504359603
 Chers tous,
 
